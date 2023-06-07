@@ -13,69 +13,71 @@
 <body>
     <!--Header section-->
     <header>
-        <div class="container">
+        <div class="header">
             <!--Navigation item section-->
-            <div class="header-top">
-                <nav class="header-top-menu">
-                    <ul class="header-top-menu-list">
+            <div class="header__top">
+                <nav class="header__top-menu">
+                    <ul class="header__top-menu-list">
                         <li>
-                            <a href="#" class="header-top-menu__link">Home</a>
+                            <a href="#" class="header__top-menu__link">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="header-top-menu__link">Product</a>
+                            <a href="#" class="header__top-menu__link">Product</a>
                         </li>
                         <li>
-                            <a href="#" class="header-top-menu__link">Pricing</a>
+                            <a href="#" class="header__top-menu__link">Pricing</a>
                         </li>
                         <li>
-                            <a href="#" class="header-top-menu__link">About</a>
+                            <a href="#" class="header__top-menu__link">About</a>
                         </li>
                         <li>
-                            <a href="#" class="header-top-menu__link">Contact</a>
+                            <a href="#" class="header__top-menu__link">Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="header-top-logo">
+                <div class="header__top-logo">
                     <img src="img/logo-figma-land.png" alt="logo-figma-land">
                 </div>
                 <!--Social item section-->
-                <div class="header-top-social-item">
+                <div class="header__top-social-item">
                     <img class="social-item" src="img/social-icon-twitter.png" alt="icon-twitter">
                     <img class="social-item" src="img/social-icon-fb.png" alt="icon-fb">
                     <img class="social-item" src="img/social-icon-ln.png" alt="icon-twitter">
                 </div>
             </div>
             <!--Header bottom-->
-            <div class="header-bottom">
+            <div class="header__bottom">
                 <h1>The best products start with Figma</h1>
-                <p class="header-bottom-description">Most calendars are designed for teams. Slate is designed for
+                <p class="header__bottom-description">Most calendars are designed for teams. Slate is designed for
                     freelancers</p>
-                <div class="header-bottom-button">
-                    <a href="#" class="header-button">Try For Free</a>
+                <div class="header__bottom-button">
+                    <a href="#"><button class="header-button">Try For Free</button></a>
                 </div>
             </div>
         </div>
     </header>
     <!--Main container-->
-    <main class="main-container">
+    <main class="main">
         <!--Main content section-->
-        <div class="main-content-section">
+        <div class="main__content-section">
             <!--Features section-->
-            <section class="features-section">
-                <h2>Features</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <div class="features-items">
-                    <div class="features-items-column">
+            <section class="features__section">
+                <div class="features__section-top">
+                    <h2>Features</h2>
+                    <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+                </div>
+                <div class="features__section-bottom">
+                    <div class="features__section-bottom-items">
                         <img class="features-item" src="./img/circle-square.png" alt="icon-circle-square">
                         <h3>OpenType features Variable fonts</h3>
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                     </div>
-                    <div class="features-items-column">
+                    <div class="features-items">
                         <img class="features-item" src="./img/pencil.png" alt="icon-pencil">
                         <h3>Design with real data</h3>
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                     </div>
-                    <div class="features-items-column">
+                    <div class="features-items">
                         <img class="features-item" src="./img/brush.png" alt="icon-brush">
                         <h3>Fastest way to take action </h3>
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
@@ -85,10 +87,66 @@
                     </div>
                 </div>
             </section>
-        </div>
+            <!--Organize section-->
+            <section class="organize__section">
+                <div class="organize__section-content">
+                    <h2>Fastest way to organize</h2>
+                    <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+                </div>
+                <div class="organize__section__button">
+                    <a href="#"><button class="header-button">Try For Free</button></a>
+                </div>
+                <div class="organize__section__image">
+                    <img class="organize__image" src="img/macbook.png" alt="macbook" >
+                </div>
+            </section>
+            <!--Subscribe section-->
+            <section class="subscribe__section">
+                <div class="subscribe__section-content">
+                    <p>At your fingertips</p>
+                    <h2>Lightning fast prototyping</h2>
+                    <p>Subscribe to our Newsletter</p>
+                    <p>Available exclusivery on Figmaland</p>
+                </div>
+                <div class="subscribe__section-form">
+                    <input type="email" name="subscribe__input" id="subscribe__input" placeholder="Your Email">
+                    <a href="#"><button class="subscribe-button">Subscribe</button></a>
+                </div>
+                <div class="subscribe__section-image">
+                    <img class="subscribe__image" src="img/lady-letter.png" alt="lady-with-letters">
+                </div>
+            </section>
+            <!--Partners section-->
+            <section class="partners__section">
+                <div class="partners__section-content">
+                    <h2>Partners</h2>
+                    <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+                </div>
+                <div class="partners__section-logo-block">
+                    <img class="partners__image" src="img/partners-logo.png" alt="partners-logo">
+                </div>
+                <div class="partners__section__button">
+                    <a href="#"><button class="header-button">Try For Free</button></a>
+                </div>
+            </section>
+            <!--Testimonials section-->
+            <section class="testimonials__section">
+                <div class="testimonials__section-content">
+                    <h2>Testimonials</h2>
+                    <img class="testimonials__logo-image" src="img/logo-ibm.png" alt="logo-ibm">
+                    <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+                    <div class="testimonials__card">
+                        <img class="testimonials__card-image-" src="img/avatar-img.png" alt="avatar-img">
+                        <p>Organize across</p>
+                        <p>Ui designer</p>
+                    </div>
+                    <div class="testimonials__section__button">
+                        <a href="#"><button class="testimonials-button">More Testimonials</button></a>
+                    </div>
+                </div>
+            </section>
+        </div> 
     </main>
-
-
 </body>
 
 </html>
